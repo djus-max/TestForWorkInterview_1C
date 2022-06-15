@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3d9b0bdc-42ea-4c24-863d-3ae750952500">
+  <name>Конфигурация</name>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="469da351-c61c-4dba-be06-d49d56451388"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="23b60aa5-62fa-4fd4-9cc3-139918f0d194"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="75eb6ab1-63bd-47b6-a287-c66cf5e63a44"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="6d52aa78-6c7b-4588-92e3-788d93663049"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="6028b463-f469-4c42-83a5-63e8ae8a2a3a"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="331c1c30-bd17-4488-afb9-c17b1ea75bdd"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="d463ccad-1bdc-4e58-9625-8d1b525db7c6"/>
+  <configurationExtensionCompatibilityMode>8.3.19</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <compatibilityMode>8.3.18</compatibilityMode>
+  <languages uuid="f8c4648d-4261-492b-8290-d962164b5256">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <dataProcessors>DataProcessor.ЧтениеЗаписьXML</dataProcessors>
+  <informationRegisters>InformationRegister.ЗначенияСвойствНоменклатуры</informationRegisters>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.СвойстваНоменклатуры</chartsOfCharacteristicTypes>
+</mdclass:Configuration>

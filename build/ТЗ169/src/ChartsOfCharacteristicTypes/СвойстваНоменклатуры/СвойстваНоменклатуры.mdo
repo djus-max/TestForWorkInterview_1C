@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="edf2f401-0c7f-4dda-b76c-412e821b5ec8">
+  <producedTypes>
+    <objectType typeId="d2325bcf-232d-40eb-b36c-0b0fec0f5dd3" valueTypeId="af06ca0d-0331-4fb6-8f09-95e353e8539d"/>
+    <refType typeId="f7c971c6-8fe3-4cf4-9657-2b258b59cb5f" valueTypeId="a6647e57-6e80-470a-aa9b-ba2a3b14ea59"/>
+    <selectionType typeId="693dff83-072f-46ce-b11e-a5e9c19c6bda" valueTypeId="69dba9b1-446a-4be7-ac64-8ad980b87a0f"/>
+    <listType typeId="eb494f63-f8ee-4af0-a958-ba9eb7c359c8" valueTypeId="d9730268-19aa-475f-beed-2d2a15d1aca1"/>
+    <managerType typeId="7662903f-cafe-49de-b46b-af3930dd1681" valueTypeId="d264841f-43fe-42fd-ab54-ec467435ec0d"/>
+    <containerType typeId="e0b6d762-0406-409b-9d97-3c9a67bc6d01" valueTypeId="6b8d3bfc-4d18-4fba-84a9-3b023a398642"/>
+  </producedTypes>
+  <name>СвойстваНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Свойства номенклатуры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.СвойстваНоменклатуры.StandardAttribute.Code</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.СвойстваНоменклатуры.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <type>
+    <types>String</types>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>12</precision>
+      <scale>2</scale>
+    </numberQualifiers>
+    <stringQualifiers>
+      <length>100</length>
+    </stringQualifiers>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ChartOfCharacteristicTypes>

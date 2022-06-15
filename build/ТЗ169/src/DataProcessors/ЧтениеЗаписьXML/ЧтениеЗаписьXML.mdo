@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d8121f4b-8f34-49ef-af2d-f79fa7d05d30">
+  <producedTypes>
+    <objectType typeId="dd0deb35-12d3-434b-9261-ac6e46ce2de4" valueTypeId="a0f02595-0bd3-484d-b804-c231efbf8a57"/>
+    <managerType typeId="20646843-0b53-457d-b345-dfe00106a171" valueTypeId="4ab5330b-be81-4c11-8735-2b0d72ce324a"/>
+  </producedTypes>
+  <name>ЧтениеЗаписьXML</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение запись XML</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЧтениеЗаписьXML.Form.Форма</defaultForm>
+  <forms uuid="9015ed85-9ac8-4a69-8008-a82a043d1270">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="d693c20b-981b-49eb-8cfb-ba33f7b61606">
+    <name>Логирование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Логирование</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>
